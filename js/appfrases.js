@@ -48,11 +48,6 @@ const app = Vue.createApp({
 
         eventoKeyPressModificador() {
             console.log('Evento');
-            console.log(key);
-            console.log(charCode);
-            console.log(keyCode);
-            console.log(cancelable);
-            console.log(target.baseURI);
             //console.log(event);
             this.agregarFraseFinal();
 
